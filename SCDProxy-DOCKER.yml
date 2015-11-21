@@ -2,6 +2,6 @@ server:
   port: 8080
 
 zuul:
-  ignoredServices: *
+  ignoredServices: "*"
   routes:
     SCDUUID: /uuid/**
