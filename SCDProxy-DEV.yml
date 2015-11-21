@@ -2,6 +2,6 @@ server:
   port: 40000
 
 zuul:
-  ignoredServices: *
+  ignoredServices: "*"
   routes:
     SCDUUID: /uuid/**
