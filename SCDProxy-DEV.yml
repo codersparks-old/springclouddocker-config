@@ -1,0 +1,7 @@
+server:
+  port: 40000
+
+zuul:
+  ignoredServices: *
+  routes:
+    SCDUUID: /uuid/**
