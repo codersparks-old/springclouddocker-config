@@ -1,2 +1,7 @@
 server:
   port: 40100
+
+eureka:
+  instance:
+      hostname: ${SCD_DISCOVERY_INSTANCE_HOST}
+      port: ${SCD_DISCOVERY_INSTANCE_PORT}

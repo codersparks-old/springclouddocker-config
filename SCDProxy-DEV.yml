@@ -5,3 +5,8 @@ zuul:
   ignoredServices: "*"
   routes:
     SCDUUID: /uuid/**
+
+eureka:
+  instance:
+      hostname: ${SCD_DISCOVERY_INSTANCE_HOST}
+      port: ${SCD_DISCOVERY_INSTANCE_PORT}
