@@ -5,6 +5,7 @@ zuul:
   ignoredServices: "*"
   routes:
     SCDUUID: /uuid/**
+    SCDVarService: /var/**
 
 eureka:
   instance:
