@@ -1,8 +1,5 @@
 server:
   port: 8080
-
 eureka:
   instance:
-      hostname: ${SCD_DISCOVERY_INSTANCE_HOST}
-      ip: ${SCD_DISCOVERY_INSTANCE_HOST}
-      port: ${SCD_DISCOVERY_INSTANCE_PORT}
+    nonSecurePort: ${SCD_INSTANCE_PORT}
