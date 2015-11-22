@@ -4,5 +4,5 @@ eureka:
   instance:
     nonSecurePort: ${SCD_INSTANCE_PORT}
 instance:
-  var1: localVariable1
-  var2: localVariable2
+  var1: dockerVariable1
+  var2: dockerVariable2
